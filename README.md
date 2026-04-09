@@ -9,9 +9,15 @@
 - Java
 - Spring Boot
 
-## API Test
-POST /webhook
+## API Testing (Postman)
 
+### Endpoint:
+POST http://localhost:8080/webhook
+
+### Request Body:
 {
   "message": "Hi"
 }
+
+### Response:
+Hello
